@@ -1,0 +1,38 @@
+.app-shell {
+  padding: 32px 0;
+}
+
+.app-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 18px;
+}
+
+.app-title {
+  margin: 0;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.app-subtitle {
+  margin: 6px 0 0;
+  color: #6b7280;
+}
+
+.student-status-pill {
+  font-weight: 600;
+}
+
+.student-status-pill.is-present {
+  background: rgba(25, 135, 84, 0.12) !important;
+  color: #0f5132 !important;
+  border: 1px solid rgba(25, 135, 84, 0.28) !important;
+}
+
+.student-status-pill.is-absent {
+  background: rgba(220, 53, 69, 0.12) !important;
+  color: #842029 !important;
+  border: 1px solid rgba(220, 53, 69, 0.28) !important;
+}
