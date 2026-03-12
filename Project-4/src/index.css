@@ -1,0 +1,90 @@
+:root {
+  /* Palette requested */
+  --accent: #ff6500;
+  --navy: #1e3e62;
+  --deep: #0b192c;
+  --black: #000000;
+
+  /* Theme tokens */
+  --bg: var(--black);
+  --panel: rgba(30, 62, 98, 0.35);
+  --panel-2: rgba(30, 62, 98, 0.48);
+  --border: rgba(255, 255, 255, 0.12);
+  --text: rgba(255, 255, 255, 0.92);
+  --muted: rgba(255, 255, 255, 0.68);
+  --focus: rgba(255, 101, 0, 0.45);
+  --ring: 0 0 0 4px var(--focus);
+
+  --danger: #ef4444;
+  --warn: #f59e0b;
+  --ok: #22c55e;
+  --info: rgba(30, 62, 98, 0.85);
+  --neutral: rgba(255, 255, 255, 0.14);
+
+  --shadow: 0 10px 35px rgba(0, 0, 0, 0.5);
+  --shadow-2: 0 18px 55px rgba(0, 0, 0, 0.6);
+
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial,
+    'Apple Color Emoji', 'Segoe UI Emoji';
+  line-height: 1.5;
+  font-weight: 400;
+  color: var(--text);
+  /* Uniform background (no banding / no color split) */
+  background: linear-gradient(180deg, var(--deep), var());
+  background: #222831;
+  
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+}
+
+::selection {
+  background: rgba(99, 102, 241, 0.35);
+}
+
+/* Subtle, consistent scrollbars (Chromium/WebKit). */
+*::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+*::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.14);
+  border-radius: 999px;
+  border: 3px solid rgba(0, 0, 0, 0);
+  background-clip: padding-box;
+}
+*::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border: 3px solid rgba(0, 0, 0, 0);
+  background-clip: padding-box;
+}
+
+.muted {
+  color: var(--muted);
+}
+
+.link {
+  color: rgba(186, 230, 253, 0.95);
+  text-decoration: none;
+}
+.link:hover {
+  text-decoration: underline;
+}
