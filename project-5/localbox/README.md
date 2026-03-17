@@ -49,12 +49,11 @@ npm run dev
 
 Then open the printed local URL (usually `http://localhost:5173`).
 
-## Required screenshots (add to `./screenshots/`)
-- `screenshots/add-record-form.png`
-- `screenshots/record-list.png`
-- `screenshots/edit-mode.png`
-- `screenshots/delete-confirmation.png`
-- `screenshots/localstorage-devtools.png` (optional)
+## Required screenshots
+- <img width="428" height="451" alt="localhost_5175_ (1)" src="https://github.com/user-attachments/assets/08756f9a-035e-4e66-b33b-89b29f5e458f" />
+- <img width="866" height="372" alt="localhost_5175_ (4)" src="https://github.com/user-attachments/assets/49ab10ef-2b06-44c5-987d-cfc363d23e87" />
+- <img width="1018" height="514" alt="localhost_5175_ (3)" src="https://github.com/user-attachments/assets/331b3a4e-d19d-493b-98ac-74c055a2574c" />
+
 
 ## Notes / constraints
 - **No backend** and **no external API**
