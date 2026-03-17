@@ -58,21 +58,10 @@ npm run build
 
 ## Required Screenshots (add to `screenshots/`)
 
-- Add Employee Form: `screenshots/add-form.png`
-- Employee List Table: `screenshots/list-table.png`
-- Edit Employee Mode: `screenshots/edit-mode.png`
-- Delete Confirmation: `screenshots/delete-confirm.png`
-- LocalStorage (optional): `screenshots/localstorage.png`
+- Add Employee Form: <img width="531" height="349" alt="localhost_5173_ (1)" src="https://github.com/user-attachments/assets/e3f2ef9f-0237-4871-83b8-6be370cf6064" />
+- Employee List Table: <img width="745" height="351" alt="localhost_5173_ (2)" src="https://github.com/user-attachments/assets/a45ea493-7896-4ef7-8e85-7278ca0ce3c8" />
+- Delete Confirmation: <img width="563" height="245" alt="localhost_5173_ (3)" src="https://github.com/user-attachments/assets/65a46730-2da6-4b2d-8067-84a3bac51e76" />
 
-Example markdown once you add images:
-
-```md
-![Add Employee Form](./screenshots/add-form.png)
-![Employee List Table](./screenshots/list-table.png)
-![Edit Employee Mode](./screenshots/edit-mode.png)
-![Delete Confirmation](./screenshots/delete-confirm.png)
-![LocalStorage data](./screenshots/localstorage.png)
-```
 
 # React + Vite
 
