@@ -1,0 +1,8 @@
+.app-title {
+  letter-spacing: -0.3px;
+}
+
+.table-fixed {
+  table-layout: fixed;
+  word-wrap: break-word;
+}
