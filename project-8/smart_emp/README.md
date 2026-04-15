@@ -6,7 +6,7 @@ Industry-ready Leave Management web app built with **Vite + React**, **Redux Too
 
 Place a screenshot at `docs/screenshot.png`, then it will render here:
 
-![Smart Leave Management Dashboard](docs/screenshot.png)
+<img width="1350" height="1150" alt="localhost_5174_" src="https://github.com/user-attachments/assets/ab3c69ac-0d93-46db-a7f5-b88d5dcbd02c" />
 
 ## Features
 
@@ -70,5 +70,4 @@ npm run preview
 
 ## Notes
 
-- Data is stored in **browser localStorage** (demo mode).
-- IDs are generated using `crypto.randomUUID()` when available (with a fallback).
+- Data is stored in **browser localStorage**.
