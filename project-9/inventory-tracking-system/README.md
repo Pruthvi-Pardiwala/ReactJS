@@ -43,7 +43,7 @@ A modern, production-ready inventory management system built with React, Redux T
 
 ```bash
 # Clone the repository
-git clone <your-repo-url>
+git clone https://github.com/Pruthvi-Pardiwala/ReactJS/tree/main/project-9/inventory-tracking-system
 cd inventory-tracking-system
 
 # Install dependencies
@@ -226,12 +226,6 @@ Firebase Realtime Database ensures:
 5. **Rate limiting** - Prevent abuse with Firebase rules
 
 ## 🐛 Troubleshooting
-
-### Firebase Connection Issues
-```javascript
-// Check your database URL format
-// Should be: https://PROJECT_ID-default-rtdb.firebaseio.com
-```
 
 ### Build Errors
 ```bash
