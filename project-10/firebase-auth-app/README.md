@@ -1,4 +1,4 @@
-# 🔐 Firebase Authentication System
+#  Firebase Authentication System
 
 A modern, secure, and feature-rich authentication system built with **React.js**, **Vite**, **Firebase Authentication**, and **Tailwind CSS**. This application provides a complete user authentication solution with a beautiful dark mode interface.
 
@@ -7,9 +7,19 @@ A modern, secure, and feature-rich authentication system built with **React.js**
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4.1-cyan)
 ![Vite](https://img.shields.io/badge/Vite-5.1.0-purple)
 
-## ✨ Features
+## Screenshort
 
-### 🔑 Authentication Features
+### Main page
+<img width="1908" height="1175" alt="localhost_3000_" src="https://github.com/user-attachments/assets/4948cceb-f3e3-4c20-a0f2-f4076b0f21e3" />
+
+### Login page
+<img width="1733" height="953" alt="localhost_3000_ (1)" src="https://github.com/user-attachments/assets/db3b712a-e7a8-4c52-b3ca-0cd42172a043" />
+
+
+
+##  Features
+
+###  Authentication Features
 - ✅ **User Registration** - Sign up with email/password
 - ✅ **User Login** - Secure email/password authentication
 - ✅ **Google Sign-In** - One-click social authentication
@@ -19,14 +29,14 @@ A modern, secure, and feature-rich authentication system built with **React.js**
 - ✅ **Protected Routes** - Automatic redirection for unauthorized access
 - ✅ **Persistent Sessions** - Stay logged in across browser sessions
 
-### 👤 User Management
+###  User Management
 - 📝 **Profile Management** - Update display name and photo
 - 📧 **Email Updates** - Change email address
 - 🔐 **Password Management** - Secure password changes
 - 📊 **User Dashboard** - View account statistics and information
 - ⚡ **Real-time Auth State** - Instant UI updates based on login status
 
-### 🎨 UI/UX Features
+###  UI/UX Features
 - 🌙 **Dark Mode Design** - Beautiful dark theme throughout
 - 📱 **Fully Responsive** - Works on all devices
 - 🎯 **Modern UI Components** - Clean, intuitive interface
@@ -34,7 +44,7 @@ A modern, secure, and feature-rich authentication system built with **React.js**
 - ✅ **Success Feedback** - Clear confirmation messages
 - 🔄 **Loading States** - Visual feedback during operations
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 | Technology | Purpose |
 |------------|---------|
@@ -53,7 +63,7 @@ Before you begin, ensure you have:
 - **npm** or **yarn**
 - A **Firebase account** ([Create one here](https://firebase.google.com/))
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Clone the Repository
 
@@ -115,7 +125,7 @@ yarn dev
 
 The app will open at `http://localhost:3000`
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 firebase-auth-app/
@@ -176,7 +186,7 @@ firebase-auth-app/
 - Unauthenticated users are redirected to Login
 - Authentication state persists across sessions
 
-## 🔒 Security Features
+##  Security Features
 
 - ✅ Password minimum length validation
 - ✅ Email verification support
@@ -187,7 +197,7 @@ firebase-auth-app/
 - ✅ XSS protection through React
 - ✅ CSRF protection through Firebase
 
-## 🎨 Customization
+##  Customization
 
 ### Change Theme Colors
 Edit `tailwind.config.js`:
@@ -208,7 +218,7 @@ theme: {
 }
 ```
 
-## 📊 Assessment Breakdown (10/10)
+##  Assessment Breakdown (10/10)
 
 | Category | Points | Description |
 |----------|--------|-------------|
@@ -219,7 +229,7 @@ theme: {
 | **Documentation** | 1/1 | Comprehensive README |
 | **Total** | **10/10** | ✅ All requirements met |
 
-## 🚢 Deployment
+##  Deployment
 
 ### Deploy to Firebase Hosting
 
@@ -260,7 +270,7 @@ npm install -g vercel
 vercel
 ```
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Common Issues
 
@@ -276,7 +286,7 @@ vercel
 **Issue: "Password update requires re-authentication"**
 - Solution: This is a Firebase security feature. User should logout and login again before changing sensitive info
 
-## 📝 Available Scripts
+##  Available Scripts
 
 ```bash
 npm run dev      # Start development server
@@ -285,7 +295,7 @@ npm run preview  # Preview production build
 npm run lint     # Run ESLint
 ```
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please follow these steps:
 
@@ -295,22 +305,22 @@ Contributions are welcome! Please follow these steps:
 4. Push to branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📄 License
+##  License
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## 👨‍💻 Author
+##  Author
 Pruthvi Pardiwala<br/>
 Created with ❤️ for educational purposes
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - [Firebase Documentation](https://firebase.google.com/docs)
 - [React Documentation](https://react.dev)
 - [Tailwind CSS](https://tailwindcss.com)
 - [Lucide Icons](https://lucide.dev)
 
-## 📞 Support
+##  Support
 
 If you have any questions or issues, please:
 1. Check the troubleshooting section
