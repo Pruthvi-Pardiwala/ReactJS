@@ -1,11 +1,11 @@
-# 📁 DocuVault - Digital Document Manager (Cloudinary Edition)
+#  DocuVault - Digital Document Manager (Cloudinary Edition)
 
 A production-ready web application for managing digital documents with Cloudinary Storage, Redux Toolkit, and React.
 
-##📷 Screenshort
+##  Screenshort
 <img width="1900" height="1065" alt="localhost_5173_" src="https://github.com/user-attachments/assets/c360b29c-ed04-47b7-a99f-084fd750367c" />
 
-## ✨ Features
+##  Features
 
 - **Upload Documents**: Support for PDFs, images, spreadsheets, presentations, and more
 - **Cloud Storage**: Secure file storage using Cloudinary with CDN delivery
@@ -19,7 +19,7 @@ A production-ready web application for managing digital documents with Cloudinar
 - **File Metadata**: Display file size, type, and upload date
 - **Image Optimization**: Automatic image transformations and CDN delivery
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Frontend**: React 18 with Vite
 - **State Management**: Redux Toolkit
@@ -30,13 +30,13 @@ A production-ready web application for managing digital documents with Cloudinar
 - **Icons**: Lucide React
 - **Date Formatting**: date-fns
 
-## 📋 Prerequisites
+##  Prerequisites
 
 - Node.js (v18 or higher)
 - npm or yarn
 - Cloudinary account (free tier available)
 
-## 🚀 Quick Setup (3 Minutes)
+##  Quick Setup (3 Minutes)
 
 ### 1. Install Dependencies
 ```bash
@@ -76,7 +76,7 @@ npm run dev
 
 Open http://localhost:5173 🎉
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 src/
@@ -88,39 +88,39 @@ src/
 └── context/           # Theme context
 ```
 
-## 🎯 How It Works
+##  How It Works
 
 1. **Upload**: File → Cloudinary (direct from browser)
 2. **Store**: Metadata saved to localStorage
 3. **Display**: Documents shown in grid with previews
 4. **Delete**: Remove from localStorage (optionally from Cloudinary via backend)
 
-## 🔒 Security Notes
+##  Security Notes
 
 **Current**: Unsigned uploads (great for development)
 **Production**: Implement signed uploads via backend API
 
 See `CLOUDINARY-SETUP-GUIDE.md` for production security.
 
-## 📊 Free Tier Limits
+##  Free Tier Limits
 
 - 25 GB storage
 - 25 GB bandwidth/month
 - 25,000 transformations/month
 - Perfect for development!
 
-## 🐛 Common Issues
+##  Common Issues
 
 **"Upload preset error"** → Ensure preset is Unsigned
 **"Invalid cloud name"** → Check dashboard for exact name
 **Files don't show** → Clear localStorage, refresh
 
-## 📚 Documentation
+##  Documentation
 
 - See `CLOUDINARY-SETUP-GUIDE.md` for detailed setup
 - Cloudinary Docs: https://cloudinary.com/documentation
 
-## 📄 License
+##  License
 
 MIT License
 
