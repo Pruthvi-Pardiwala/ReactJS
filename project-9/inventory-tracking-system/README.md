@@ -7,6 +7,15 @@ A modern, production-ready inventory management system built with React, Redux T
 ![Firebase](https://img.shields.io/badge/Firebase-10.8-orange)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-cyan)
 
+## Screenshot
+
+### Main
+<img width="1157" height="787" alt="image" src="https://github.com/user-attachments/assets/442a0013-9e56-4fce-aea1-8d702b48b8ea" />
+
+
+### Add Product
+<img width="1920" height="970" alt="localhost_3000_ (1)" src="https://github.com/user-attachments/assets/16fe9faf-fdc6-4c85-8527-f5bf6be03a53" />
+
 ## ✨ Features
 
 ### Core Functionality
