@@ -96,12 +96,12 @@ Open `src/firebase/config.js` and replace the placeholder values:
 
 ```javascript
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT_ID.appspot.com",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyCv3oG9SzCSuvdx-1wcTspktf6TdSEGA9M",
+  authDomain: "fir-auth-system-2ea7f.firebaseapp.com",
+  projectId: "fir-auth-system-2ea7f",
+  storageBucket: "fir-auth-system-2ea7f.firebasestorage.app",
+  messagingSenderId: "94454276370",
+  appId: "1:94454276370:web:dd13fd18627ec97918d3cb"
 };
 ```
 
@@ -208,14 +208,6 @@ theme: {
 }
 ```
 
-### Add More Social Providers
-1. Enable provider in Firebase Console
-2. Import provider in `AuthContext.jsx`:
-```javascript
-import { FacebookAuthProvider, GithubAuthProvider } from 'firebase/auth';
-```
-3. Create login functions similar to `loginWithGoogle`
-
 ## 📊 Assessment Breakdown (10/10)
 
 | Category | Points | Description |
@@ -308,7 +300,7 @@ Contributions are welcome! Please follow these steps:
 This project is open source and available under the [MIT License](LICENSE).
 
 ## 👨‍💻 Author
-
+Pruthvi Pardiwala<br/>
 Created with ❤️ for educational purposes
 
 ## 🙏 Acknowledgments
