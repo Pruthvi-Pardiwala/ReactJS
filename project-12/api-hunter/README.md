@@ -4,6 +4,15 @@
 
 ---
 
+## 📸 Screenshots
+### 🏠 Main Interface
+<img width="2534" height="1071" alt="localhost_5173_" src="https://github.com/user-attachments/assets/27ca5562-d88a-429f-a7af-b24b87ab42e3" />
+
+
+
+*The full API Hunter interface with dark theme, request builder panel on left, and dual result cards on right.*
+
+
 ## 📌 Problem Definition
 
 Modern frontend applications depend heavily on API integrations. Developers need tools to:
@@ -141,35 +150,6 @@ api-hunter/
 
 ---
 
-## 📸 Screenshots
-
-> Add screenshots to a `screenshots/` folder and update these paths after running the app.
-
-### 🏠 Main Interface
-![Main UI](./screenshots/main-ui.png)
-*The full API Hunter interface with dark theme, request builder panel on left, and dual result cards on right.*
-
-### ⚡ GET Request — Success State
-![GET Success](./screenshots/get-success.png)
-*Successful GET to JSONPlaceholder /users — both fetch() and axios show ✅ Success (200) with formatted JSON.*
-
-### 📬 POST Request
-![POST Request](./screenshots/post-request.png)
-*POST request with JSON body editor, showing the new resource created and returned.*
-
-### 🗄️ JSON Server — Mock Backend
-![JSON Server](./screenshots/json-server.png)
-*Using the local JSON Server at port 3001 — GET /users returns mock data.*
-
-### ❌ Error State
-![Error State](./screenshots/error-state.png)
-*Network error or bad URL — both cards show ❌ ERROR with message.*
-
-### ⏳ Loading State
-![Loading State](./screenshots/loading-state.png)
-*Animated spinner shown while fetch() and axios await responses.*
-
----
 
 ## 💡 Example Output
 
